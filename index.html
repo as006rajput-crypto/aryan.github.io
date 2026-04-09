@@ -1,20 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aditya Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 50px;
+      background: linear-gradient(135deg, #3b82f6, #06b6d4);
+    }
+
+    header h1 {
+      font-size: 40px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    section {
+      padding: 40px;
+    }
+
+    .card {
+      background: #1e293b;
+      margin: 20px auto;
+      padding: 20px;
+      width: 80%;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      padding: 8px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #3b82f6;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    .btn:hover {
+      background: #2563eb;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Hi, I am Aditya 👋</h1>
-    <p>I am a B.Tech student</p>
 
-    <h2>Skills</h2>
+<header>
+  <h1>Hi, I'm Aditya 👋</h1>
+  <p>B.Tech Student | Web Developer | Freelancer</p>
+</header>
+
+<section>
+  <div class="card">
+    <h2>🚀 About Me</h2>
+    <p>I build websites and professional resumes for students.</p>
+  </div>
+
+  <div class="card">
+    <h2>💻 Skills</h2>
     <ul>
-        <li>C</li>
-        <li>C++</li>
-        <li>Python</li>
+      <li>C</li>
+      <li>C++</li>
+      <li>Python</li>
+      <li>HTML, CSS</li>
     </ul>
+  </div>
 
-    <h2>Contact</h2>
+  <div class="card">
+    <h2>📂 Services</h2>
+    <p>✔ Resume Making<br>✔ Portfolio Websites<br>✔ Basic Web Development</p>
+  </div>
+
+  <div class="card">
+    <h2>📞 Contact</h2>
     <p>Email: yourmail@gmail.com</p>
+    <a href="#" class="btn">Hire Me</a>
+  </div>
+</section>
+
 </body>
 </html>
